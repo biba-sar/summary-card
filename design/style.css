@@ -1,0 +1,19 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+   background-color: hsl(225, 100%, 94%);
+   width: 1005;
+   margin:auto;
+}
+.content{
+   background-color: hsl(225, 100%, 98%);
+   width: 100%;
+   max-width: 1000px;
+   display: block;
+   flex-direction: column;
+   margin:50px auto;
+}
