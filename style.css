@@ -4,16 +4,16 @@
    font-family: Arial, Helvetica, sans-serif;
    box-sizing: border-box;
 }
-body{
-   width: 100%;
-   margin: auto;
-   background: url("images/pattern-background-desktop.svg");
-   background-size: cover;
-   background-clip: border-box;
-   background-position: center;
-}
+body {
+   background-color: lightblue; 
+   background-image: url("./images/pattern-background-mobile.svg");
+   background-position: top left;
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
 .container{
    width: 100%;
+   transform: scale(0.8);
    max-width: 400px;
    margin: 15px;
    background-color: #fff;
@@ -27,7 +27,7 @@ body{
 .content img{
    width: 100%;
    max-width: 400px;
-   border-radius: 15px;
+   border-radius: 15px 15px 0 0;
    border-bottom: none;
 }
 .payment img{
