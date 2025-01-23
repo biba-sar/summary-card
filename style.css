@@ -13,7 +13,7 @@ body {
  }
 .container{
    width: 100%;
-   transform: scale(0.8);
+   transform: scale(0.9);
    max-width: 400px;
    margin: 15px;
    background-color: #fff;
